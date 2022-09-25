@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5d48b210-f242-4487-b398-445ab8d011f3": {
+      "ProjectGuid": "5d48b210-f242-4487-b398-445ab8d011f3",
+      "DisplayName": "PlanetariumService",
+      "ColorIndex": 0
+    },
+    "83993e9c-0381-48f5-adcf-f5ab88dca071": {
+      "ProjectGuid": "83993e9c-0381-48f5-adcf-f5ab88dca071",
+      "DisplayName": "PlanetariumServices",
+      "ColorIndex": 1
+    },
+    "282e3107-b20a-497e-948a-f6e7ffa8329d": {
+      "ProjectGuid": "282e3107-b20a-497e-948a-f6e7ffa8329d",
+      "DisplayName": "PlanetariumModels",
+      "ColorIndex": 2
+    },
+    "9f511a1e-6cf8-4f5e-9552-0a9bae1674b3": {
+      "ProjectGuid": "9f511a1e-6cf8-4f5e-9552-0a9bae1674b3",
+      "DisplayName": "PlanetariumRepositories",
+      "ColorIndex": 3
+    },
+    "85183587-791a-4bc6-ac14-c3a375b1ec40": {
+      "ProjectGuid": "85183587-791a-4bc6-ac14-c3a375b1ec40",
+      "DisplayName": "PlanetariumServiceTests",
+      "ColorIndex": 4
+    },
+    "39007442-8601-4bda-acf8-7fe0f970155d": {
+      "ProjectGuid": "39007442-8601-4bda-acf8-7fe0f970155d",
+      "DisplayName": "PlanetariumServiceTests",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

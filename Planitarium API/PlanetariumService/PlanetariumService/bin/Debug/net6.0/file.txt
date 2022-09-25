@@ -1,0 +1,105 @@
+2022-03-11 14:41:32.2145|DEBUG|Program|init main
+2022-03-11 14:47:30.9088|DEBUG|Program|init main
+2022-03-11 14:50:20.7159|DEBUG|Program|init main
+2022-03-12 18:08:09.7611|DEBUG|Program|init main
+2022-03-12 18:11:42.9248|DEBUG|Program|init main
+2022-03-12 18:14:07.7987|DEBUG|Program|init main
+2022-03-12 18:15:53.9847|DEBUG|Program|init main
+2022-03-12 18:17:44.9402|DEBUG|Program|init main
+2022-03-12 18:24:24.5757|DEBUG|Program|init main
+2022-03-12 18:26:07.6336|INFO|Program|init main
+2022-03-12 18:27:35.8536|INFO|Program|init main
+2022-03-12 18:28:51.4969|INFO|Program|init main
+2022-03-12 18:31:01.0096|INFO|Program|init main
+2022-03-12 18:40:56.6221|INFO|Program|init main
+2022-03-12 18:42:03.7997|INFO|Program|init main
+2022-03-12 18:43:57.0272|INFO|Program|init main
+2022-03-12 18:45:07.2283|INFO|Program|init main
+2022-03-12 18:48:41.9021|INFO|Program|init main
+2022-03-12 18:48:45.5978|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 18:48:45.7055|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 18:48:45.7583|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 18:48:45.7985|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 18:48:45.8225|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 18:49:01.1158|INFO|PlanetariumService.Controllers.PostersController|Got all the posters
+2022-03-12 18:49:03.7511|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Poster'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 18:49:03.7687|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Surcharge' on entity type 'Tier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 18:51:18.9392|INFO|Program|init main
+2022-03-12 18:51:23.1271|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 18:51:23.5410|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 18:51:23.5606|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 18:51:23.5768|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 18:51:23.5872|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 18:54:54.8545|INFO|Program|init main
+2022-03-12 18:54:57.7240|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 18:54:57.7917|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 18:54:57.9038|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 18:54:57.9159|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 18:54:57.9957|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 18:55:33.6479|INFO|Program|init main
+2022-03-12 18:55:36.8324|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 18:55:36.8562|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 18:55:36.8562|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 18:55:36.8715|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 18:55:36.8886|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 18:56:48.9179|INFO|Program|init main
+2022-03-12 18:56:51.7055|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 18:56:51.7528|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 18:56:51.7674|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 18:56:51.7860|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 18:56:51.8026|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 19:00:23.1551|INFO|Program|init main
+2022-03-12 19:00:25.9639|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 19:00:25.9999|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 19:00:25.9999|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 19:00:26.0200|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 19:00:26.0400|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 19:01:01.0789|INFO|PlanetariumService.Controllers.PostersController|Got all the posters
+2022-03-12 19:01:04.3117|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Poster'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 19:01:04.3231|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Surcharge' on entity type 'Tier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 19:01:53.5671|INFO|Program|init main
+2022-03-12 19:01:56.2437|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 19:01:56.2932|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 19:01:56.2932|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 19:01:56.3399|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 19:01:56.3658|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 19:02:37.5239|INFO|Program|init main
+2022-03-12 19:02:39.8653|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 19:02:39.8982|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 19:02:39.9092|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 19:02:39.9231|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 19:02:39.9231|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 19:02:57.1904|INFO|PlanetariumService.Controllers.PostersController|Got all the posters
+2022-03-12 19:03:00.1375|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Poster'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 19:03:00.1375|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Surcharge' on entity type 'Tier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 19:05:32.8241|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 19:05:33.0583|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 19:05:33.0788|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 19:05:33.0987|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 19:05:33.1133|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 19:06:18.0706|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2022-03-12 19:08:43.6400|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-12 19:08:43.8228|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-12 19:08:43.8549|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-12 19:08:43.8809|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-12 19:08:43.8969|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-12 19:09:09.0171|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Poster'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-12 19:09:09.0171|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Surcharge' on entity type 'Tier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-13 22:24:30.1447|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-13 22:24:30.1960|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-13 22:24:30.1960|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-13 22:24:30.1960|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-13 22:24:30.2101|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-13 22:45:48.4682|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-03-13 22:45:48.5417|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-03-13 22:45:48.5417|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-03-13 22:45:48.5539|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-03-13 22:45:48.5539|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\
+2022-03-13 22:45:59.9873|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Poster'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-13 22:45:59.9894|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Surcharge' on entity type 'Tier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-03-13 22:46:01.4759|INFO|PlanetariumService.Controllers.PostersController|Got poster detailes by id
+2022-04-03 22:16:22.4698|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7081
+2022-04-03 22:16:22.5684|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081
+2022-04-03 22:16:22.5949|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-04-03 22:16:22.5949|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-04-03 22:16:22.5949|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\sturchyn\Documents\GitHub\Internship\Module15\PlanetariumService\PlanetariumService\

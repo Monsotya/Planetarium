@@ -1,0 +1,15 @@
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\bin\Debug\net6.0\PlanetariumRepositories.deps.json
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\bin\Debug\net6.0\PlanetariumRepositories.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\bin\Debug\net6.0\ref\PlanetariumRepositories.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\bin\Debug\net6.0\PlanetariumRepositories.pdb
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\bin\Debug\net6.0\PlanetariumModels.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\bin\Debug\net6.0\PlanetariumModels.pdb
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.csproj.AssemblyReference.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.AssemblyInfoInputs.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.AssemblyInfo.cs
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.csproj.CoreCompileInputs.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.csproj.CopyComplete
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\ref\PlanetariumRepositories.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumRepositories\obj\Debug\net6.0\PlanetariumRepositories.pdb

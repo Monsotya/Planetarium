@@ -1,0 +1,74 @@
+﻿@model IEnumerable<PlanetariumService.Models.TicketUI>
+
+@{
+    ViewData["Title"] = "Choose tickets";
+}
+
+<h1>Choose tickets</h1>
+<br />
+<span id="messagesList"></span>
+<br />
+<form asp-action="Buy">
+    <input name="posterId" value=@Model.ElementAt(0).PosterId />
+<div class="row">
+    <div class="col">
+    
+    <tbody>
+        @for (int i = 0; i < Model.Count() / 5; i++)
+        {
+            @for (int j = 0; j < 5; j++)
+
+            {
+                @if (Model.ElementAt(i * 5 + j).TicketStatus == "bought")
+                {
+                    <div class="ticket stopped">
+                        <label>
+                            <input name="tickets" type="checkbox" value=@Model.ElementAt(i*5 + j).Id place=@Model.ElementAt(i*5 + j).Place performance="@Model.ElementAt(i*5 + j).Poster.Performance.Title" date="@Model.ElementAt(i*5 + j).Poster.DateOfEvent" status="@Model.ElementAt(i*5 + j).TicketStatus">
+                            <span>@Html.DisplayFor(modelItem => Model.ElementAt(i*5 + j).Place)</span>
+                        </label>
+                    </div>
+                }
+                else
+                {
+                    <div class="ticket action">
+                        <label>
+                            <input name="tickets" type="checkbox" value=@Model.ElementAt(i*5 + j).Id place=@Model.ElementAt(i*5 + j).Place performance="@Model.ElementAt(i*5 + j).Poster.Performance.Title" date="@Model.ElementAt(i*5 + j).Poster.DateOfEvent" status="@Model.ElementAt(i*5 + j).TicketStatus">
+                            <span>@Html.DisplayFor(modelItem => Model.ElementAt(i*5 + j).Place)</span>
+                        </label>
+                    </div>
+                }
+
+
+            }
+            <br>
+            <br>
+            <br>
+
+        }
+    </tbody>
+    <br /><br />
+    <input id="buyButton" type="submit" value="Buy" class="btn btn-danger" asp-controller="Ticket" asp-action="Buy">
+    
+</div>
+<div class="col">
+        <div class="row">
+    <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label"> ClientName</label>
+                <input name="clientName" class="form-control" />
+            </div> <br />
+            <div class="form-group">
+                <label  class="control-label">ClientSurname</label>
+                <input name="clientSurname" class="form-control" />
+            </div><br />
+            <div class="form-group">
+                <label  class="control-label">Email</label>
+                <input name="email" class="form-control" />
+            </div><br />
+    </div>
+</div>
+</div>
+</div>
+</form>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/lib/microsoft/signalr/buyingTickets.js"></script>

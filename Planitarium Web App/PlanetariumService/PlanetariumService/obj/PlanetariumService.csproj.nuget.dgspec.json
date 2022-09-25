@@ -1,0 +1,465 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumService\\PlanetariumService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj",
+        "projectName": "PlanetariumModels",
+        "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj",
+        "packagesPath": "C:\\Users\\sturchyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sturchyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj",
+        "projectName": "PlanetariumRepositories",
+        "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj",
+        "packagesPath": "C:\\Users\\sturchyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sturchyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\PlanetariumServiceGRPC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\PlanetariumServiceGRPC.csproj",
+        "projectName": "PlanetariumServiceGRPC",
+        "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\PlanetariumServiceGRPC.csproj",
+        "packagesPath": "C:\\Users\\sturchyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sturchyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj"
+              },
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj"
+              },
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.44.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj",
+        "projectName": "PlanetariumServices",
+        "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj",
+        "packagesPath": "C:\\Users\\sturchyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sturchyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumModels\\PlanetariumModels.csproj"
+              },
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumRepositories\\PlanetariumRepositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumService\\PlanetariumService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumService\\PlanetariumService.csproj",
+        "projectName": "PlanetariumService",
+        "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumService\\PlanetariumService.csproj",
+        "packagesPath": "C:\\Users\\sturchyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sturchyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\PlanetariumServiceGRPC.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\PlanetariumServiceGRPC.csproj"
+              },
+              "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj": {
+                "projectPath": "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServices\\PlanetariumServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.19.4, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.44.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.44.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.44.0, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client.Core": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.OLE.Interop": {
+              "target": "Package",
+              "version": "[17.1.32210.191, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

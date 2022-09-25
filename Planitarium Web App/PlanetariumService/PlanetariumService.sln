@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetariumService", "PlanetariumService\PlanetariumService.csproj", "{7F3F31F7-F6E5-4FBD-8D48-DE07F380F8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{191EC138-E5CA-41BC-BD5B-D554B90A47A0}"
+	ProjectSection(SolutionItems) = preProject
+		Web.config = Web.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetariumServices", "PlanetariumServices\PlanetariumServices.csproj", "{25BE5A48-FEB7-47AA-8428-7F8133630828}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetariumModels", "PlanetariumModels\PlanetariumModels.csproj", "{38F0FAE0-ECE7-454C-8119-F7EA349890C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetariumRepositories", "PlanetariumRepositories\PlanetariumRepositories.csproj", "{5A2E1EAD-9FE9-44D2-BBE3-86D639C1728C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetariumServiceGRPC", "PlanetariumServiceGRPC\PlanetariumServiceGRPC.csproj", "{A8E1DF29-4CD9-4122-91C2-BD21A43D5811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetariumWCF", "PlanetariumWCF\PlanetariumWCF.csproj", "{23D2D3AF-63EF-4C5D-80B5-B44207221694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetariumModelsFramework", "PlanetariumModelsFramework\PlanetariumModelsFramework.csproj", "{033EB110-B807-4591-BFBA-27185CF23C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetariumWCFHost", "PlanetariumWCFHost\PlanetariumWCFHost.csproj", "{643A6746-1EC2-4F84-A83D-77A9D058C8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLanetariumWCFClient", "PLanetariumWCFClient\PLanetariumWCFClient.csproj", "{DE91F183-E43C-43D4-8D4E-4D4F77735505}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23D2D3AF-63EF-4C5D-80B5-B44207221694} = {23D2D3AF-63EF-4C5D-80B5-B44207221694}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetariumServiceWCF", "PlanetariumServiceWCF\PlanetariumServiceWCF.csproj", "{0AC6A57E-065B-4EEF-AD76-2D275D75B660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F3F31F7-F6E5-4FBD-8D48-DE07F380F8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3F31F7-F6E5-4FBD-8D48-DE07F380F8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3F31F7-F6E5-4FBD-8D48-DE07F380F8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3F31F7-F6E5-4FBD-8D48-DE07F380F8AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BE5A48-FEB7-47AA-8428-7F8133630828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BE5A48-FEB7-47AA-8428-7F8133630828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BE5A48-FEB7-47AA-8428-7F8133630828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BE5A48-FEB7-47AA-8428-7F8133630828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F0FAE0-ECE7-454C-8119-F7EA349890C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F0FAE0-ECE7-454C-8119-F7EA349890C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F0FAE0-ECE7-454C-8119-F7EA349890C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F0FAE0-ECE7-454C-8119-F7EA349890C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2E1EAD-9FE9-44D2-BBE3-86D639C1728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2E1EAD-9FE9-44D2-BBE3-86D639C1728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2E1EAD-9FE9-44D2-BBE3-86D639C1728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2E1EAD-9FE9-44D2-BBE3-86D639C1728C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E1DF29-4CD9-4122-91C2-BD21A43D5811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E1DF29-4CD9-4122-91C2-BD21A43D5811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E1DF29-4CD9-4122-91C2-BD21A43D5811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E1DF29-4CD9-4122-91C2-BD21A43D5811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D2D3AF-63EF-4C5D-80B5-B44207221694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D2D3AF-63EF-4C5D-80B5-B44207221694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D2D3AF-63EF-4C5D-80B5-B44207221694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D2D3AF-63EF-4C5D-80B5-B44207221694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033EB110-B807-4591-BFBA-27185CF23C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033EB110-B807-4591-BFBA-27185CF23C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033EB110-B807-4591-BFBA-27185CF23C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033EB110-B807-4591-BFBA-27185CF23C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643A6746-1EC2-4F84-A83D-77A9D058C8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643A6746-1EC2-4F84-A83D-77A9D058C8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643A6746-1EC2-4F84-A83D-77A9D058C8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643A6746-1EC2-4F84-A83D-77A9D058C8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE91F183-E43C-43D4-8D4E-4D4F77735505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE91F183-E43C-43D4-8D4E-4D4F77735505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE91F183-E43C-43D4-8D4E-4D4F77735505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE91F183-E43C-43D4-8D4E-4D4F77735505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC6A57E-065B-4EEF-AD76-2D275D75B660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC6A57E-065B-4EEF-AD76-2D275D75B660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC6A57E-065B-4EEF-AD76-2D275D75B660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC6A57E-065B-4EEF-AD76-2D275D75B660}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C05C9BAB-971E-4A21-9E5A-26FFFEEC5687}
+	EndGlobalSection
+EndGlobal

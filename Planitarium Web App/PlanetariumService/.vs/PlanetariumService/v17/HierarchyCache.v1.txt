@@ -1,0 +1,882 @@
+﻿++Solution 'PlanetariumService' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:PlanetariumService.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++Web.config
+i:{191ec138-e5ca-41bc-bd5b-d554b90a47a0}:C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\Web.config
+++PlanetariumService
+i:{00000000-0000-0000-0000-000000000000}:PlanetariumService
+++Connected Services 
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:>911
+++SQL Server Express LocalDB (Local) (ConnectionStrings:PlanetariumServiceContext)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:>942
+++Dependencies
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:>910
+++Analyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:analyzers
+++Frameworks
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:frameworks
+++Packages
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:packages
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:>923
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:>924
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+++Imports
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:>980
+++Sdk.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++Properties
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\properties\
+++launchSettings.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\properties\launchsettings.json
+++serviceDependencies.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\properties\servicedependencies.json
+++serviceDependencies.local.json.user
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\properties\servicedependencies.local.json.user
+++wwwroot
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\
+++css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\css\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\js\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\lib\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm\lib\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm64\lib\
+++bootstrap
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\
+++dist
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery\dist\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\license
+++jquery
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery\
+++jquery-validation
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation-unobtrusive\
+++favicon.ico
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\favicon.ico
+++bin
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\
+++Controllers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\controllers\
+++HomeController.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\controllers\homecontroller.cs
+++OrderController.cs
+++PostersController.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\controllers\posterscontroller.cs
+++TicketController.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\controllers\ticketcontroller.cs
+++Models
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\
+++ErrorViewModel.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\errorviewmodel.cs
+++Hall.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\hall.cs
+++Orders.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\orders.cs
+++Performance.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\performance.cs
+++PlanetariumServiceContext.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\planetariumservicecontext.cs
+++Poster.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\poster.cs
+++Ticket.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\ticket.cs
+++Tier.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\models\tier.cs
+++obj
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\
+++Debug
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\
+++PlanetariumService.csproj.nuget.dgspec.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\planetariumservice.csproj.nuget.dgspec.json
+++PlanetariumService.csproj.nuget.g.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\planetariumservice.csproj.nuget.g.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\planetariumservice.csproj.nuget.g.props
+++PlanetariumService.csproj.nuget.g.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\planetariumservice.csproj.nuget.g.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\planetariumservice.csproj.nuget.g.targets
+++project.assets.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\project.assets.json
+++project.nuget.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\project.nuget.cache
+++staticwebassets.pack.sentinel
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\staticwebassets.pack.sentinel
+++Repositories
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\
+++HallRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\hallrepository.cs
+++IHallRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\ihallrepository.cs
+++IPosterRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\iposterrepository.cs
+++IRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\irepository.cs
+++ITicketRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\iticketrepository.cs
+++PosterRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\posterrepository.cs
+++Repository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\repository.cs
+++TicketRepository.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\repositories\ticketrepository.cs
+++Services
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\
+++HallService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\hallservice.cs
+++IHallService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\ihallservice.cs
+++IPerformanceService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\iperformanceservice.cs
+++IPosterService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\iposterservice.cs
+++ITicketService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\iticketservice.cs
+++OrderService.cs
+++PerformanceService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\performanceservice.cs
+++PosterService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\posterservice.cs
+++TicketService.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\services\ticketservice.cs
+++Views
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\views\
+++Home
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\home\
+++AddPosters.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\posters\addposters.cshtml
+++Index.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\home\index.cshtml
+++Posters.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\posters\posters.cshtml
+++Privacy.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\home\privacy.cshtml
+++Posters
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\posters\
+++Buy.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\ticket\buy.cshtml
+++Create.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\posters\create.cshtml
+++Delete.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\posters\delete.cshtml
+++Edit.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\posters\edit.cshtml
+++Order.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\ticket\order.cshtml
+++Shared
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\shared\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\views\shared\
+++_ViewImports.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\_viewstart.cshtml
+++appsettings.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\appsettings.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\appsettings.json
+++appsettings.Development.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\appsettings.development.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\appsettings.development.json
+++Program.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\program.cs
+++MessagePackAnalyzer
+++Microsoft.AspNetCore.Analyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\microsoft.netcore.app
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++serviceDependencies.local.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\properties\servicedependencies.local.json
+++bootstrap.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\css\bootstrap.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++site.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\css\site.css
+++site.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\js\site.js
+++LICENSE.txt
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery\license.txt
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++net6.0
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\
+++_Layout.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\shared\error.cshtml
+++Microsoft.Common.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++bootstrap.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++ref
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\ref\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\ref\
+++scopedcss
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\
+++staticwebassets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\apphost.exe
+++PlanetariumService.AssemblyInfo.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.assemblyinfo.cs
+++PlanetariumService.AssemblyInfoInputs.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.assemblyinfoinputs.cache
+++PlanetariumService.assets.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.assets.cache
+++PlanetariumService.csproj.AssemblyReference.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.csproj.assemblyreference.cache
+++PlanetariumService.csproj.CopyComplete
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.csproj.copycomplete
+++PlanetariumService.csproj.CoreCompileInputs.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.csproj.corecompileinputs.cache
+++PlanetariumService.csproj.FileListAbsolute.txt
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.csproj.filelistabsolute.txt
+++PlanetariumService.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\ref\planetariumservice.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\ref\planetariumservice.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\planetariumservice.dll
+++PlanetariumService.GeneratedMSBuildEditorConfig.editorconfig
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.generatedmsbuildeditorconfig.editorconfig
+++PlanetariumService.genruntimeconfig.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.genruntimeconfig.cache
+++PlanetariumService.GlobalUsings.g.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.globalusings.g.cs
+++PlanetariumService.MvcApplicationPartsAssemblyInfo.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.mvcapplicationpartsassemblyinfo.cache
+++PlanetariumService.pdb
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.pdb
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\planetariumservice.pdb
+++PlanetariumService.RazorAssemblyInfo.cache
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.razorassemblyinfo.cache
+++PlanetariumService.RazorAssemblyInfo.cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\planetariumservice.razorassemblyinfo.cs
+++project.razor.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\project.razor.json
+++staticwebassets.build.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\staticwebassets.build.json
+++staticwebassets.development.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\staticwebassets.development.json
+++_Layout.cshtml.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\shared\_layout.cshtml.css
+++Microsoft.NuGet.ImportBefore.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++bootstrap.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.rtl.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++cs
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\cs\
+++de
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\de\
+++es
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\es\
+++fr
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\fr\
+++it
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\it\
+++ja
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\ja\
+++ko
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\ko\
+++pl
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\pl\
+++pt-BR
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\pt-br\
+++ru
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\ru\
+++runtimes
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\
+++tr
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\tr\
+++zh-Hans
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\zh-hans\
+++zh-Hant
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\zh-hant\
+++dotnet-aspnet-codegenerator-design.dll
+++Humanizer.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\humanizer.dll
+++MessagePack.Annotations.dll
+++MessagePack.dll
+++Microsoft.AspNetCore.Razor.Language.dll
+++Microsoft.Bcl.AsyncInterfaces.dll
+++Microsoft.Build.Locator.dll
+++Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+++Microsoft.CodeAnalysis.CSharp.dll
+++Microsoft.CodeAnalysis.CSharp.Features.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+++Microsoft.CodeAnalysis.dll
+++Microsoft.CodeAnalysis.Features.dll
+++Microsoft.CodeAnalysis.Razor.dll
+++Microsoft.CodeAnalysis.Scripting.dll
+++Microsoft.CodeAnalysis.VisualBasic.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+++Microsoft.Data.SqlClient.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.data.sqlclient.dll
+++Microsoft.DiaSymReader.dll
+++Microsoft.DotNet.Scaffolding.Shared.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.entityframeworkcore.sqlserver.dll
+++Microsoft.Extensions.Caching.Memory.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.extensions.caching.memory.dll
+++Microsoft.Identity.Client.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.identity.client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
+++Microsoft.VisualStudio.Debugger.Contracts.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+++Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\microsoft.win32.systemevents.dll
+++Newtonsoft.Json.dll
+++NuGet.Common.dll
+++NuGet.Configuration.dll
+++NuGet.DependencyResolver.Core.dll
+++NuGet.Frameworks.dll
+++NuGet.LibraryModel.dll
+++NuGet.Packaging.dll
+++NuGet.ProjectModel.dll
+++NuGet.Protocol.dll
+++NuGet.Versioning.dll
+++PlanetariumService.deps.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\planetariumservice.deps.json
+++PlanetariumService.exe
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\planetariumservice.exe
+++PlanetariumService.runtimeconfig.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\planetariumservice.runtimeconfig.json
+++PlanetariumService.staticwebassets.runtime.json
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\planetariumservice.staticwebassets.runtime.json
+++System.Composition.AttributedModel.dll
+++System.Composition.Convention.dll
+++System.Composition.Hosting.dll
+++System.Composition.Runtime.dll
+++System.Composition.TypedParts.dll
+++System.Configuration.ConfigurationManager.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.configuration.configurationmanager.dll
+++System.Drawing.Common.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.drawing.common.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
+++System.Runtime.Caching.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.runtime.caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.security.permissions.dll
+++System.Windows.Extensions.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\system.windows.extensions.dll
+++bundle
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\bundle\
+++projectbundle
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\projectbundle\
+++Microsoft.EntityFrameworkCore.Design.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\.nuget\packages\microsoft.entityframeworkcore.design\6.0.2\build\net6.0\microsoft.entityframeworkcore.design.props
+++Microsoft.NuGet.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++bootstrap.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++jquery.min.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\jquery\dist\jquery.min.map
+++Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+++Microsoft.CodeAnalysis.CSharp.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+++Microsoft.CodeAnalysis.Features.resources.dll
+++Microsoft.CodeAnalysis.resources.dll
+++Microsoft.CodeAnalysis.Scripting.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.resources.dll
+++unix
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\
+++win
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\
+++win-arm
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm\
+++win-arm64
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm64\
+++win-x64
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-x64\
+++win-x86
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-x86\
+++PlanetariumService.styles.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\bundle\planetariumservice.styles.css
+++PlanetariumService.bundle.scp.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\projectbundle\planetariumservice.bundle.scp.css
+++Microsoft.NET.ILLink.Tasks.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++bootstrap.rtl.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++native
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm\native\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm64\native\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-x64\native\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-x86\native\
+++_Layout.cshtml.rz.scp.css
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\obj\debug\net6.0\scopedcss\views\shared\_layout.cshtml.rz.scp.css
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+++Microsoft.Net.CoreRuntime.ImportBefore.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
+++Microsoft.NetNative.ImportBefore.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
+++PlanetariumService.csproj.user
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\planetariumservice.csproj.user
+++Microsoft.NET.props
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.Net.CoreRuntime.ImportAfter.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
+++Microsoft.NetNative.ImportAfter.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++netcoreapp2.1
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\lib\netcoreapp2.1\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp2.1\
+++netcoreapp3.0
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
+++netcoreapp3.1
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\bin\debug\net6.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++Microsoft.DesktopBridge.Common.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
+++Microsoft.Docker.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.Web.IISSupport.targets
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++dotnet-aspnet-codegenerator-design.exe
+++NewFolder
+++Order
+++Ticket
+i:{7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac}:c:\users\sturchyn\documents\github\internship\module14\planetariumservice\planetariumservice\views\ticket\

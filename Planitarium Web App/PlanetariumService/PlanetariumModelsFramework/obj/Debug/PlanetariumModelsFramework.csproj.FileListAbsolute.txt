@@ -1,0 +1,11 @@
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\PlanetariumModelsFramework.dll.config
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\PlanetariumModelsFramework.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\PlanetariumModelsFramework.pdb
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.xml
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.csproj.CoreCompileInputs.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.csproj.CopyComplete
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.pdb

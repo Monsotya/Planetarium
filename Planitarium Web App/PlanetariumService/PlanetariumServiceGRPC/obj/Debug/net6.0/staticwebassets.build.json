@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JapteT0HVtW4IFSD74BhX6LH744Sv8nbCXKSgAjCfwg=",
+  "Source": "PlanetariumServiceGRPC",
+  "BasePath": "_content/PlanetariumServiceGRPC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

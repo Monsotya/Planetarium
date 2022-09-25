@@ -1,0 +1,7 @@
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\bin\PlanetariumServiceWCF.dll.config
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\bin\PlanetariumServiceWCF.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\bin\PlanetariumServiceWCF.pdb
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\obj\Debug\PlanetariumServiceWCF.csproj.AssemblyReference.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\obj\Debug\PlanetariumServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\obj\Debug\PlanetariumServiceWCF.dll
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServiceWCF\obj\Debug\PlanetariumServiceWCF.pdb

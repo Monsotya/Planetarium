@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlanetariumService</name>
+    </assembly>
+    <members>
+        <member name="M:PlanetariumService.Controllers.AuthController.GetMe">
+            <summary>
+            Gets user`s name
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.AuthController.Register(PlanetariumModels.Users)">
+            <summary>
+            Registration for new user
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.AuthController.Login(PlanetariumModels.Users)">
+            <summary>
+            Login for user
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.PosterDetails(System.Int32)">
+            <summary>
+            Returns a poster
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.Posters(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Returns posters of in a chosen time interval
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.AddPosters">
+            <summary>
+            Returns all posters
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.Create(PlanetariumModels.Poster)">
+            <summary>
+            Creates a poster
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.CreateTickets(System.Int32)">
+            <summary>
+            Creates tickets to a poster
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.Edit(System.Int32,PlanetariumModels.Poster)">
+            <summary>
+            Changes poster by id
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.PostersController.Delete(System.Int32)">
+            <summary>
+            Deletes a poster by id
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.TicketController.Order(System.Nullable{System.Int32})">
+            <summary>
+            Returns tickets of a poster by id
+            </summary>
+        </member>
+        <member name="M:PlanetariumService.Controllers.TicketController.Buy(System.Int32[])">
+            <summary>
+            Changes ticket status to "bought"
+            </summary>
+        </member>
+    </members>
+</doc>

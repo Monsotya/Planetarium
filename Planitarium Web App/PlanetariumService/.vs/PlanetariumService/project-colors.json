@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac": {
+      "ProjectGuid": "7f3f31f7-f6e5-4fbd-8d48-de07f380f8ac",
+      "DisplayName": "PlanetariumService",
+      "ColorIndex": 0
+    },
+    "191ec138-e5ca-41bc-bd5b-d554b90a47a0": {
+      "ProjectGuid": "191ec138-e5ca-41bc-bd5b-d554b90a47a0",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "25be5a48-feb7-47aa-8428-7f8133630828": {
+      "ProjectGuid": "25be5a48-feb7-47aa-8428-7f8133630828",
+      "DisplayName": "PlanetariumServices",
+      "ColorIndex": 2
+    },
+    "38f0fae0-ece7-454c-8119-f7ea349890c3": {
+      "ProjectGuid": "38f0fae0-ece7-454c-8119-f7ea349890c3",
+      "DisplayName": "PlanetariumModels",
+      "ColorIndex": 3
+    },
+    "5a2e1ead-9fe9-44d2-bbe3-86d639c1728c": {
+      "ProjectGuid": "5a2e1ead-9fe9-44d2-bbe3-86d639c1728c",
+      "DisplayName": "PlanetariumRepositories",
+      "ColorIndex": 4
+    },
+    "a8e1df29-4cd9-4122-91c2-bd21a43d5811": {
+      "ProjectGuid": "a8e1df29-4cd9-4122-91c2-bd21a43d5811",
+      "DisplayName": "PlanetariumServiceGRPC",
+      "ColorIndex": 5
+    },
+    "277224f0-0a96-4c5e-9040-630337d17c5e": {
+      "ProjectGuid": "277224f0-0a96-4c5e-9040-630337d17c5e",
+      "DisplayName": "PlanetariumServiceClient",
+      "ColorIndex": 6
+    },
+    "8a19b342-ffa9-47e8-a4ab-4d3663ca71e9": {
+      "ProjectGuid": "8a19b342-ffa9-47e8-a4ab-4d3663ca71e9",
+      "DisplayName": "PlanetariumWCF",
+      "ColorIndex": 7
+    },
+    "d22e1973-8890-46b0-9793-6a2950ea5ad5": {
+      "ProjectGuid": "d22e1973-8890-46b0-9793-6a2950ea5ad5",
+      "DisplayName": "PlanetariumWCF",
+      "ColorIndex": 8
+    },
+    "05f55d91-ea8e-423c-817c-43b6a7a4327f": {
+      "ProjectGuid": "05f55d91-ea8e-423c-817c-43b6a7a4327f",
+      "DisplayName": "PlanetariumWCF",
+      "ColorIndex": 9
+    },
+    "23d2d3af-63ef-4c5d-80b5-b44207221694": {
+      "ProjectGuid": "23d2d3af-63ef-4c5d-80b5-b44207221694",
+      "DisplayName": "PlanetariumWCF",
+      "ColorIndex": 10
+    },
+    "d526a386-3953-4a71-a6bb-a1d1fa4e0e4f": {
+      "ProjectGuid": "d526a386-3953-4a71-a6bb-a1d1fa4e0e4f",
+      "DisplayName": "PlanetariumServiceModelsFramework",
+      "ColorIndex": 11
+    },
+    "033eb110-b807-4591-bfba-27185cf23c7c": {
+      "ProjectGuid": "033eb110-b807-4591-bfba-27185cf23c7c",
+      "DisplayName": "PlanetariumModelsFramework",
+      "ColorIndex": 12
+    },
+    "643a6746-1ec2-4f84-a83d-77a9d058c8e5": {
+      "ProjectGuid": "643a6746-1ec2-4f84-a83d-77a9d058c8e5",
+      "DisplayName": "PlanetariumWCFHost",
+      "ColorIndex": 13
+    },
+    "de91f183-e43c-43d4-8d4e-4d4f77735505": {
+      "ProjectGuid": "de91f183-e43c-43d4-8d4e-4d4f77735505",
+      "DisplayName": "PLanetariumWCFClient",
+      "ColorIndex": 14
+    },
+    "0ac6a57e-065b-4eef-ad76-2d275d75b660": {
+      "ProjectGuid": "0ac6a57e-065b-4eef-ad76-2d275d75b660",
+      "DisplayName": "PlanetariumServiceWCF",
+      "ColorIndex": 15
+    }
+  },
+  "NextColorIndex": 0
+}

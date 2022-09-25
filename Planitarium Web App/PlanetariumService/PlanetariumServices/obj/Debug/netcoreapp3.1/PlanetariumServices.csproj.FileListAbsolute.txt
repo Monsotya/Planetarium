@@ -1,0 +1,5 @@
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServices\obj\Debug\netcoreapp3.1\PlanetariumServices.csproj.AssemblyReference.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServices\obj\Debug\netcoreapp3.1\PlanetariumServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServices\obj\Debug\netcoreapp3.1\PlanetariumServices.AssemblyInfoInputs.cache
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServices\obj\Debug\netcoreapp3.1\PlanetariumServices.AssemblyInfo.cs
+C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumServices\obj\Debug\netcoreapp3.1\PlanetariumServices.csproj.CoreCompileInputs.cache
