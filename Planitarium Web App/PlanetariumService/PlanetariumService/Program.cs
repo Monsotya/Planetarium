@@ -1,10 +1,21 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using PlanetariumModels;
 using PlanetariumRepositories;
+using PlanetariumService.Database;
 using PlanetariumService.Hubs;
 using PlanetariumService.Profiles;
 using PlanetariumServices;
+
+var x = DbInstance.CreateInstance();
+x.HallUIs.Add(new PlanetariumService.Models.HallUI()
+{
+    Id = default,
+    HallName = default,
+    Capacity = default,
+    Posters = default,
+});
 
 var builder = WebApplication.CreateBuilder(args);
 
