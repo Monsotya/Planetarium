@@ -4,24 +4,23 @@ namespace PlanetariumModels
 {
     public class PlanetariumServiceContext : DbContext
     {
+        public static string Connection;
+
         public PlanetariumServiceContext(DbContextOptions<PlanetariumServiceContext> options) : base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
-
-            optionsBuilder.UseSqlServer("data source=.; database=Planetarium; integrated security=SSPI");
-
+            optionsBuilder.UseSqlServer(Connection);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Performance>().ToTable("Performance");
-            modelBuilder.Entity<Poster>().ToTable("Poster");
-            modelBuilder.Entity<Ticket>().ToTable("Ticket");
-            modelBuilder.Entity<Tier>().ToTable("Tier");
+            modelBuilder.Entity<Performance>().ToTable("Performances");
+            modelBuilder.Entity<Poster>().ToTable("Posters");
+            modelBuilder.Entity<Ticket>().ToTable("Tickets");
+            modelBuilder.Entity<Tier>().ToTable("Tiers");
             modelBuilder.Entity<Orders>().ToTable("Orders");
-            modelBuilder.Entity<Hall>().ToTable("Hall");
+            modelBuilder.Entity<Hall>().ToTable("Halls");
             modelBuilder.Entity<Users>().ToTable("Users");
         }
         public DbSet<Performance> Performances { get; set; }

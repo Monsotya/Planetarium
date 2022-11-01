@@ -2,20 +2,13 @@ using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using PlanetariumModels;
+using PlanetariumModelsFramework;
 using PlanetariumRepositories;
-using PlanetariumService.Database;
 using PlanetariumService.Hubs;
 using PlanetariumService.Profiles;
 using PlanetariumServices;
 
-var x = DbInstance.CreateInstance();
-x.HallUIs.Add(new PlanetariumService.Models.HallUI()
-{
-    Id = default,
-    HallName = default,
-    Capacity = default,
-    Posters = default,
-});
+PlanetariumModels.PlanetariumServiceContext.Connection = new PlanetariumModelsFramework.PlanetariumServiceContext().Database.Connection.ConnectionString;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,8 +21,9 @@ var mapperConfig = new MapperConfiguration(mc =>
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
-builder.Services.AddDbContext<PlanetariumServiceContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("PlanetariumServiceContext"), builder => builder.EnableRetryOnFailure()));
-builder.Services.AddTransient<PlanetariumServiceContext>();
+builder.Services.AddDbContext<PlanetariumModels.PlanetariumServiceContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("PlanetariumServiceContext"),
+    builder => builder.EnableRetryOnFailure()));
+builder.Services.AddTransient<PlanetariumModels.PlanetariumServiceContext>();
 
 builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 
