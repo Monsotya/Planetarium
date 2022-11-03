@@ -8,7 +8,11 @@ using PlanetariumService.Hubs;
 using PlanetariumService.Profiles;
 using PlanetariumServices;
 
-PlanetariumModels.PlanetariumServiceContext.Connection = new PlanetariumModelsFramework.PlanetariumServiceContext().Database.Connection.ConnectionString;
+var db = new PlanetariumModelsFramework.PlanetariumServiceContext();
+db.Halls.Add(new PlanetariumModelsFramework.Hall());
+db.SaveChanges();
+
+PlanetariumModels.PlanetariumServiceContext.Connection = db.Database.Connection.ConnectionString;
 
 var builder = WebApplication.CreateBuilder(args);
 

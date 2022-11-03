@@ -4,7 +4,6 @@ namespace PlanetariumModelsFramework
 {
     public class PlanetariumServiceContext : DbContext
     {
-        public PlanetariumServiceContext() : base("Planetarium") { }
         public DbSet<Performance> Performances { get; set; }
         public DbSet<Poster> Posters { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
