@@ -10,5 +10,6 @@ namespace PlanetariumModelsFramework
         public DbSet<Orders> Orders { get; set; }
         public DbSet<Tier> Tiers { get; set; }
         public DbSet<Hall> Halls { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }
