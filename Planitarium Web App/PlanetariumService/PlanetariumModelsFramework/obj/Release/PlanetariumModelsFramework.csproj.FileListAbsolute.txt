@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\PlanetariumModelsFramework.dll.config
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\PlanetariumModelsFramework.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\PlanetariumModelsFramework.pdb
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\EntityFramework.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\EntityFramework.xml
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Release\PlanetariumModelsFramework.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Release\PlanetariumModelsFramework.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Release\PlanetariumModelsFramework.csproj.CopyComplete
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Release\PlanetariumModelsFramework.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Release\PlanetariumModelsFramework.pdb

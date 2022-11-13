@@ -9,3 +9,15 @@ C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\Planet
 C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.csproj.CopyComplete
 C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.dll
 C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.pdb
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\PlanetariumModelsFramework.dll.config
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\PlanetariumModelsFramework.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\PlanetariumModelsFramework.pdb
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.xml
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.csproj.CopyComplete
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModelsFramework\obj\Debug\PlanetariumModelsFramework.pdb
