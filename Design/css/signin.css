@@ -1,11 +1,120 @@
+
 h1 {
     margin: 50px auto 0 auto;
 }
 
 main {
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
 
     justify-content: space-between;
     gap: 20px;
+    max-height: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form > *:first-child {
+    width: max-content;
+}
+
+.form form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.form h3 ~ * {
+    margin-top: 40px;
+}
+
+input, button {
+    margin-top: 24px;
+}
+
+input {
+    transition: .3s ease-in-out;
+    padding: 10px 20px;
+    max-width: 368px;
+    min-width: fit-content;
+    width: 100%;
+    outline: 2px solid rgba(255, 253, 247, 50%);
+    border-radius: 30px;
+    font-size: 24px;
+    /*outline: none;*/
+    border: 0;
+    background: none;
+    user-select: none;
+}
+
+input:hover {
+    outline:  2px solid var(--white);
+}
+
+input::placeholder {
+    transition: .3s ease-in-out;
+    color: var(--blue);
+    opacity: 1;
+}
+
+input:hover::placeholder {
+    opacity: 0.5;
+}
+
+.form small {
+    display: block;
+    color: var(--blue);
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.smallest {
+    color: var(--blue);
+    margin-top: 24px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.form a {
+    color: var(--white);
+}
+
+/*.form a:hover {
+    text-decoration: underline;
+}*/
+
+.form a::after {
+    content: "";
+    position: absolute;
+    left:0;
+    top: 100%;
+    width: 0;
+    height: 1px;
+    background: var(--white);
+    transition: width .3s ease-in-out;
+}
+
+.form a:hover:after {
+    width: 100%;
+}
+
+button {
+    transition: .3s ease-in-out;
+    background: rgba(255, 253, 247, 25%);
+    color: var(--blue);
+    font-size: 24px;
+    padding: 11px 45px;
+    width: fit-content;
+    height: fit-content;
+}
+
+button:hover {
+    background: rgba(255, 253, 247, 100%);
 }
