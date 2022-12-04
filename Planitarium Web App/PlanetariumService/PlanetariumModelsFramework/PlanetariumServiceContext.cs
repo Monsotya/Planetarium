@@ -4,6 +4,11 @@ namespace PlanetariumModelsFramework
 {
     public class PlanetariumServiceContext : DbContext
     {
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            Database.SetInitializer<PlanetariumServiceContext>(null);
+            base.OnModelCreating(modelBuilder);
+        }
         public DbSet<Performance> Performances { get; set; }
         public DbSet<Poster> Posters { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
