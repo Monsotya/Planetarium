@@ -71,7 +71,7 @@
     <a href="#">About us</a>
   </div>
   <div class="links">
-    <a href="#">Sign in</a>
+    <a href="#">Sign up</a>
     <div class="lang" onclick="change_lang(this)"><span toggle>en</span>|<span>ua</span></div>
   </div>
 </nav>
@@ -100,13 +100,16 @@
 -->
   </section>
   <div class="form">
-    <h3>Welcome back!</h3>
-    <form method="POST">
-      <input type="text" name="login" placeholder="Username or email">
+    <h3>Create an account</h3>
+    <form method="POST" action="">
+      <input type="email" name="email" placeholder="Email">
+      <input type="text" name="username" placeholder="Username">
       <input type="password" name="login" placeholder="Password">
-      <small><a href="#">Forgot password?</a></small>
-      <button>Sign in</button>
-      <small>Dont have an account yet? <a href="#">Sign up</a></small>
+      <input type="password" name="login" placeholder="Confirm Password">
+      <button>Sign up</button>
+      <small><a href="#">Already have an account?</a></small>
+      <div class="smallest">By signing up you agree to the terms of the Service Agreement and<br> the Galaxy Planetarium
+        Privacy Policy.</div>
     </form>
   </div>
 </main>

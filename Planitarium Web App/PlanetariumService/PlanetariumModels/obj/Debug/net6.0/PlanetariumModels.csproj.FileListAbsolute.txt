@@ -12,3 +12,17 @@ C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\Planet
 C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\ref\PlanetariumModels.dll
 C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.pdb
 C:\Users\sturchyn\Documents\GitHub\Internship\Module14\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.genruntimeconfig.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\bin\Debug\net6.0\PlanetariumModels.deps.json
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\bin\Debug\net6.0\PlanetariumModels.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\bin\Debug\net6.0\PlanetariumModels.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\bin\Debug\net6.0\PlanetariumModels.pdb
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\refint\PlanetariumModels.dll
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.pdb
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\PlanetariumModels.genruntimeconfig.cache
+C:\Users\admin\Documents\GitHub\Planetarium\Planitarium Web App\PlanetariumService\PlanetariumModels\obj\Debug\net6.0\ref\PlanetariumModels.dll
