@@ -8,12 +8,13 @@ using PlanetariumService.Hubs;
 using PlanetariumService.Profiles;
 using PlanetariumServices;
 
+
 PlanetariumModels.PlanetariumServiceContext.Connection = new PlanetariumModelsFramework.PlanetariumServiceContext().
     Database.Connection.ConnectionString;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 var mapperConfig = new MapperConfiguration(mc =>
 {
     mc.AddProfile(new OneProfile());
@@ -21,6 +22,7 @@ var mapperConfig = new MapperConfiguration(mc =>
 
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
+
 
 builder.Services.AddDbContext<PlanetariumModels.PlanetariumServiceContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("PlanetariumServiceContext"),
     builder => builder.EnableRetryOnFailure()));

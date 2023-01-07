@@ -1,7 +1,74 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewData["CSS"] = "~/css/home.css";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-</div>
+<main>
+    <div class="intro">
+        <h1>Galaxy Planetarium</h1>
+        <strong>It is a long-established fact that a reader will be distracted by the readable content.</strong>
+        <a href="#">Buy a ticket</a>
+    </div>
+
+    <div class="events">
+        <h3>Current events</h3>
+        <div class="items">
+            <div>
+                <img src="~/img/planet.png" alt="">
+                <p>It is a long-established fact that a reader will be distracted.</p>
+                <a href="#" inverse>Buy a ticket</a>
+            </div>
+            <div>
+                <img src="~/img/planet.png" alt="">
+                <p>It is a long-established fact that a reader will be distracted.</p>
+                <a href="#" inverse>Buy a ticket</a>
+            </div>
+            <div>
+                <img src="~/img/planet.png" alt="">
+                <p>It is a long-established fact that a reader will be distracted.</p>
+                <a href="#" inverse>Buy a ticket</a>
+            </div>
+            <div>
+                <img src="~/img/planet.png" alt="">
+                <p>It is a long-established fact that a reader will be distracted.</p>
+                <a href="#" inverse>Buy a ticket</a>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <img src="~/img/moon.png" alt="">
+        <div class="text">
+            <h3>We offer</h3>
+            <strong>
+                It is a long-established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors.
+            </strong>
+        </div>
+    </div>
+    <div class="sign-in">
+        <div>
+            <h2>Searching for tickets?</h2>
+            <strong>Sign in to view your tickets</strong>
+            <a href="#">Sign in</a>
+        </div>
+        <img src="~/img/webb.png" alt="">
+    </div>
+</main>
+<footer>
+    <div>
+        <h6>Galaxy Planetarium</h6>
+        <p>
+            © 2022 Galaxy Planetarium. All rights reserved. All trademarks are property of their respective owners in the
+            Ukraine and other countries.
+        </p>
+    </div>
+    <div>
+        <h6>Contacts</h6>
+        <div class="icons">
+            <a class="icon" href="https://github.com/Monsotya/Planetarium"><img src="~/img/GitHub.svg" alt=""></a>
+            <a class="icon" href="https://t.me/simonsatana"><img src="~/img/Telegram.svg" alt=""></a>
+        </div>
+    </div>
+</footer>

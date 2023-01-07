@@ -19,6 +19,11 @@ namespace PlanetariumService.Controllers
             return View();
         }
 
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Login(string login, string password) // LoginViewModel model
@@ -66,13 +71,13 @@ namespace PlanetariumService.Controllers
         {
             if (ModelState.IsValid)
             {
-                Users user = new User
+                Users user = new Users
                 {
                     Username = model.Username,
-                    Name = model.Name,
+                    /*Name = model.Name,
                     Lastame = model.Lastname,
                     Email = model.Email,
-                    Password = model.Password
+                    Password = model.Password*/
 
                 };
                 var res = userService.Add(user);
