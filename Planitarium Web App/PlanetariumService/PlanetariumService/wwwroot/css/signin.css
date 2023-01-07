@@ -39,35 +39,6 @@ input, button {
     margin-top: 24px;
 }
 
-input {
-    transition: .3s ease-in-out;
-    padding: 10px 20px;
-    max-width: 368px;
-    min-width: fit-content;
-    width: 100%;
-    outline: 2px solid rgba(255, 253, 247, 50%);
-    border-radius: 30px;
-    font-size: 24px;
-    /*outline: none;*/
-    border: 0;
-    background: none;
-    user-select: none;
-}
-
-input:hover {
-    outline:  2px solid var(--white);
-}
-
-input::placeholder {
-    transition: .3s ease-in-out;
-    color: var(--blue);
-    opacity: 1;
-}
-
-input:hover::placeholder {
-    opacity: 0.5;
-}
-
 .form small {
     display: block;
     color: var(--blue);
@@ -103,18 +74,4 @@ input:hover::placeholder {
 
 .form a:hover:after {
     width: 100%;
-}
-
-button {
-    transition: .3s ease-in-out;
-    background: rgba(255, 253, 247, 25%);
-    color: var(--blue);
-    font-size: 24px;
-    padding: 11px 45px;
-    width: fit-content;
-    height: fit-content;
-}
-
-button:hover {
-    background: rgba(255, 253, 247, 100%);
 }

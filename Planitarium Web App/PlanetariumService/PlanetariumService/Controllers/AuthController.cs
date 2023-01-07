@@ -7,18 +7,21 @@ namespace PlanetariumService.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly IUserService userService;
+        private readonly IUsersService userService;
 
-        public AuthController(IUserService userService)
+        public AuthController(IUsersService userService)
         {
             this.userService = userService;
         }
 
+
+        [Route("Signin")]
         public IActionResult SignIn()
         {
             return View();
         }
 
+        [Route("Signup")]
         public IActionResult SignUp()
         {
             return View();
@@ -32,18 +35,18 @@ namespace PlanetariumService.Controllers
             {
                 // var userdetails = await _context.Userdetails
                 // .SingleOrDefaultAsync(m => m.Email == model.Email && m.Password == model.Password);
-                var user = userService.getByUsername(login);
+                var user = userService.GetByUsername(login);
                 if (user == null)
                 {
                     ModelState.AddModelError("Login", "Invalid login.");
                     return RedirectToAction(nameof(SignIn));
                 }
-                if (user.Password != password)
+                if (user.UserPassword != password)
                 {
                     ModelState.AddModelError("Password", "Invalid login attempt.");
                     return RedirectToAction(nameof(SignIn));
                 }
-                //HttpContext.Session.SetString("userId", user.Username);
+                HttpContext.Session.SetString("userId", user.Username);
 
                 return RedirectToAction("Index", "Home");
             }
@@ -65,7 +68,7 @@ namespace PlanetariumService.Controllers
         }*/
 
 
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegistrationViewModel model)
         {
@@ -74,10 +77,10 @@ namespace PlanetariumService.Controllers
                 Users user = new Users
                 {
                     Username = model.Username,
-                    /*Name = model.Name,
-                    Lastame = model.Lastname,
-                    Email = model.Email,
-                    Password = model.Password*/
+                    *//*Name = model.Name,
+                    Lastame = model.Lastname*//*
+                    // Email = model.Email,
+                    UserPassword = model.Password
 
                 };
                 var res = userService.Add(user);
@@ -88,7 +91,7 @@ namespace PlanetariumService.Controllers
             {
                 return View();
             }
-        }
+        }*/
 
         [Authorize]
         public ActionResult Logout()

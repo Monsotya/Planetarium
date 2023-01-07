@@ -305,6 +305,78 @@ footer .icons > a:hover {
     background: var(--blue);
 }
 
+input, select {
+    transition: .3s ease-in-out;
+    padding: 10px 20px;
+    max-width: 368px;
+    min-width: fit-content;
+    width: 100%;
+    outline: 2px solid rgba(255, 253, 247, 50%);
+    border-radius: 30px;
+    font-size: 24px;
+    /*outline: none;*/
+    border: 0;
+    background: none;
+    user-select: none;
+}
+
+select option {
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+}
+
+input:hover, select:hover {
+    outline: 2px solid var(--white);
+}
+
+input::placeholder, select::placeholder {
+    transition: .3s ease-in-out;
+    color: var(--blue);
+    opacity: 1;
+}
+
+input:hover::placeholder, select:hover::placeholder {
+    opacity: 0.5;
+}
+
+button.submit {
+    transition: .3s ease-in-out;
+    background: rgba(255, 253, 247, 25%);
+    color: var(--blue);
+    font-size: 24px;
+    padding: 11px 45px;
+    width: fit-content;
+    height: fit-content;
+}
+
+button.submit:hover {
+    background: rgba(255, 253, 247, 100%);
+}
+
+a.button-like {
+    padding: 28px 13px;
+    border-radius: 30px;
+    border: 1px solid var(--blue);
+    font-size: 36px;
+    background: none;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+a.button-like:hover {
+    background: var(--blue);
+}
+
+a.button-like[inverse] {
+    background: var(--blue);
+}
+
+table {
+    width: 100%;
+}
+
 /*
 footer .icons > a:hover svg path {
     fill: var(--blue)

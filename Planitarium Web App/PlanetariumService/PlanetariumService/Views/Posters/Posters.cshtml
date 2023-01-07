@@ -3,15 +3,16 @@
 
 @{
     ViewData["Title"] = "Posters";
-    ViewData["Head"] = "<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />";
+    ViewData["Head"] = "<link rel=\"stylesheet\" href=\"~/lib/bootstrap/dist/css/bootstrap.min.css\" />";
 }
-<h1>@ViewData["Title"]</h1>
+@*<h1>@ViewData["Title"]</h1>
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width = device-width" />
     <title>Posters</title>
-</head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>*@
 
 <body>
     @using (Html.BeginForm())
@@ -64,11 +65,12 @@
                         @Html.DisplayFor(modelItem => item.Tickets.Where(x => x.TicketStatus == "available").ToList<TicketUI>().Count)
                     </td>
                     <td>
-                        <a asp-action="Order" class="btn btn-primary" asp-controller="Ticket" asp-route-id="@item.Id">Order</a>
+                        <a asp-action="Order" class="button-like" asp-controller="Ticket" asp-route-id="@item.Id">Order</a>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
-</body>
+</body>@*
 </html>
+*@

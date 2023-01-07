@@ -5,18 +5,18 @@ using System.Security.Claims;
 
 namespace PlanetariumServices
 {
-    public class UserService : IUserService
+    public class UsersService : IUsersService
     {
-        private readonly IHttpContextAccessor httpContextAccessor;
-        private readonly IRepository<Users> userRepository;
+        //private readonly IHttpContextAccessor httpContextAccessor;
+        private readonly IUsersRepository userRepository;
 
-        public UserService(IHttpContextAccessor httpContextAccessor, IRepository<Users> userRepository)
+        public UsersService(/*IHttpContextAccessor httpContextAccessor, */IUsersRepository userRepository)
         {
-            this.httpContextAccessor = httpContextAccessor;
+            //this.httpContextAccessor = httpContextAccessor;
             this.userRepository = userRepository;
         }
 
-        public string GetMyName()
+        /*public string GetMyName()
         {
             var result = string.Empty;
             if (httpContextAccessor.HttpContext != null)
@@ -24,9 +24,12 @@ namespace PlanetariumServices
                 result = httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
             }
             return result;
-        }
+        }*/
 
-        public List<Users> GetAllUsers() => userRepository.GetAll().ToList<Users>();
+        public Users GetByUsername(string username) => userRepository.GetByUsernameAsync(username).Result;
+
+        public List<Users> GetAll() => userRepository.GetAll().ToList<Users>();
+
         public async Task<Users> Add(Users user) => await userRepository.AddAsync(user);
 
     }

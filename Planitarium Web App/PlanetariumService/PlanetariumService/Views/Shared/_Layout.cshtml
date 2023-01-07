@@ -11,7 +11,9 @@
     {
     <link rel="stylesheet" type="text/css" href="@ViewData["CSS"]" asp-append-version="true" />
     }
-    @ViewData["Head"]
+    @if (@ViewData["Head"] != null) {
+    @Html.Raw(@ViewData["Head"])
+    }
     <!--  <link rel="preconnect" href="https://fonts.googleapis.com">-->
     <!--  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
     <!--  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap" rel="stylesheet">-->
@@ -80,7 +82,7 @@
             @*<a href="#">About us</a>*@
         </div>
         <div class="links">
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Sign in</a>
+            <a asp-area="" asp-controller="Auth" asp-action="SignIn">Sign in</a>
             <div class="lang" onclick="change_lang(this)"><span toggle>en</span>|<span>ua</span></div>
         </div>
     </nav>
@@ -88,6 +90,14 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        let options = document.getElementsByTagName("option");
+        for (var i = 0; i < options.length; i++) {
+            if (options[i].value != "") {
+                options[i].innerHTML = options[i].value;
+            }
+        }
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

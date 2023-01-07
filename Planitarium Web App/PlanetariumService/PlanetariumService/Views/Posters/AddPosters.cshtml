@@ -2,19 +2,20 @@
 
 @{
     ViewData["Title"] = "Edit Posters";
-    ViewData["Head"] = "<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />";
+    ViewData["Head"] = "<link rel=\"stylesheet\" href=\"~/lib/bootstrap/dist/css/bootstrap.min.css\" />";
 }
 <h1>@ViewData["Title"]</h1>
-<!DOCTYPE html>
+@*<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width = device-width" />
     <title>Posters</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
-
+*@
 <body>
     <p>
-        <a asp-action="Create" class="btn btn-primary" asp-controller="Posters">Create New</a>
+        <a asp-action="Create" class="button-like" asp-controller="Posters">Create New</a>
     </p>
     <table class="table">
         <thead>
@@ -51,12 +52,12 @@
                         @Html.DisplayFor(modelItem => item.Hall.HallName)
                     </td>
                     <td>
-                        <a asp-action="Edit" class="btn btn-primary" asp-controller="Posters" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Delete" class="btn btn-danger" asp-controller="Posters" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Edit" class="button-like" asp-controller="Posters" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Delete" class="button-like" asp-controller="Posters" asp-route-id="@item.Id">Delete</a>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
     </body>
-</html>
+@*</html>*@

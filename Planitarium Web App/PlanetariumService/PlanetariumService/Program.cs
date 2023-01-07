@@ -34,12 +34,14 @@ builder.Services.AddTransient<ITicketRepository, TicketRepository>();
 builder.Services.AddTransient<IPosterRepository, PosterRepository>();
 builder.Services.AddTransient<IHallRepository, HallRepository>();
 builder.Services.AddTransient<ITicketRepository, TicketRepository>();
+builder.Services.AddTransient<IUsersRepository, UsersRepository>();
 
 builder.Services.AddTransient<ITicketService, TicketService>();
 builder.Services.AddTransient<IPosterService, PosterService>();
 builder.Services.AddTransient<IHallService, HallService>();
 builder.Services.AddTransient<IPerformanceService, PerformanceService>();
 builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IUsersService, UsersService>();
 
 builder.Services.AddSignalR();
 

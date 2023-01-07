@@ -1,6 +1,7 @@
 @{
     ViewData["Title"] = "Add posters";
     ViewData["CSS"] = "~/css/system.css";
+    ViewData["Head"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/signin.css\" />";
 }
 
 <h1>Sign in</h1>
@@ -26,8 +27,8 @@
       <input type="text" name="login" placeholder="Username or email">
       <input type="password" name="login" placeholder="Password">
       <small><a href="#">Forgot password?</a></small>
-      <button>Sign in</button>
-      <small>Dont have an account yet? <a href="#">Sign up</a></small>
+      <button class="submit">Sign in</button>
+            <small>Dont have an account yet? <a asp-area="" asp-controller="Auth" asp-action="SignUp">Sign up</a></small>
     </form>
   </div>
 </main>

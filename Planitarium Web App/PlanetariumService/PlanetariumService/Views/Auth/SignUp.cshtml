@@ -1,6 +1,7 @@
 @{
     ViewData["Title"] = "Add posters";
     ViewData["CSS"] = "~/css/system.css";
+    ViewData["Head"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/signin.css\" />";
 }
 <h1>Sign up</h1>
 <main>
@@ -24,12 +25,12 @@
         <form method="POST" action="">
             <input type="email" name="email" placeholder="Email">
             <input type="text" name="username" placeholder="Username">
-            <input type="password" name="login" placeholder="Password">
-            <input type="password" name="login" placeholder="Confirm Password">
-            <button>Sign up</button>
-            <small><a href="#">Already have an account?</a></small>
+            <input type="password" name="pwd" placeholder="Password">
+            <input type="password" name="pwdconfirm" placeholder="Confirm Password">
+            <button class="submit">Sign up</button>
+            <small><a asp-area="" asp-controller="Auth" asp-action="SignIn">Already have an account?</a></small>
             <div class="smallest">
-                By signing u<a href="c:\users\admin\documents\github\planetarium\planitarium web app\planetariumservice\planetariumservice\views\home\index.cshtml">c:\users\admin\documents\github\planetarium\planitarium web app\planetariumservice\planetariumservice\views\home\index.cshtml</a>p you agree to the terms of the Service Agreement and<br> the Galaxy Planetarium
+                By signing up you agree to the terms of the Service Agreement and<br> the Galaxy Planetarium
                 Privacy Policy.
             </div>
         </form>
