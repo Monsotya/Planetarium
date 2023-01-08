@@ -40,7 +40,8 @@
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /><br />
+        @*<input type="submit" value="Delete" class="btn btn-danger" />*@
+        <button type="submit" class="submit">Delete</button><br />
         <a asp-action="AddPosters" asp-controller="Posters" class="button-like">Back to List</a>
 
     </form>

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using PlanetariumModels;
 using PlanetariumServices;
 using Microsoft.AspNetCore.Authorization;
+using PlanetariumService.Models;
 
 namespace PlanetariumService.Controllers
 {
@@ -27,33 +28,40 @@ namespace PlanetariumService.Controllers
             return View();
         }
 
+        // [Route("Signin/Login")]
+        [Route("Signin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Login(string login, string password) // LoginViewModel model
+        public IActionResult Login(LoginUI model) // LoginViewModel model
         {
             if (ModelState.IsValid)
             {
                 // var userdetails = await _context.Userdetails
                 // .SingleOrDefaultAsync(m => m.Email == model.Email && m.Password == model.Password);
-                var user = userService.GetByUsername(login);
-                if (user == null)
-                {
-                    ModelState.AddModelError("Login", "Invalid login.");
+                Users user = null; 
+                try {
+                    user = userService.GetByUsername(model.Login);
+                } catch (AggregateException e) {
+                    //ModelState.AddModelError("Login", "Invalid Username.");
+                    ViewBag.LoginError = "Invalid Username.";
                     return RedirectToAction(nameof(SignIn));
                 }
-                if (user.UserPassword != password)
+                /*if (user == null)
                 {
-                    ModelState.AddModelError("Password", "Invalid login attempt.");
+                    ModelState.AddModelError("Login", "Invalid Username.");
+                    return RedirectToAction(nameof(SignIn));
+                }*/
+                if (user.UserPassword != model.Password)
+                {
+                    //ModelState.AddModelError("Password", "Invalid Sign in attempt.");
+                    ViewBag.PasswordError = "Invalid Sign in attempt. (Wrong Password)";
                     return RedirectToAction(nameof(SignIn));
                 }
                 HttpContext.Session.SetString("userId", user.Username);
 
                 return RedirectToAction("Index", "Home");
             }
-            else
-            {
-                return View("Index");
-            }
+            return RedirectToAction(nameof(SignIn));//View("Index");
         }
         /*{
             // TODO: Insert login and password retrival from database
@@ -67,31 +75,28 @@ namespace PlanetariumService.Controllers
             return View();
         }*/
 
-
-        /*[HttpPost]
+        // [Route("Signup/Register")]
+        [Route("Signup")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Register(RegistrationViewModel model)
-        {
+        public async Task<ActionResult> Register() {//(RegistrationViewModel model)
             if (ModelState.IsValid)
             {
                 Users user = new Users
                 {
-                    Username = model.Username,
-                    *//*Name = model.Name,
-                    Lastame = model.Lastname*//*
+                    // Username = model.Username,
+                    /*Name = model.Name,
+                    Lastame = model.Lastname,*/
                     // Email = model.Email,
-                    UserPassword = model.Password
+                    // UserPassword = model.Password
 
                 };
                 var res = userService.Add(user);
                 //HttpContext.Session.SetString("userId", user.Username);
                 return RedirectToAction("Index", "Home");
             }
-            else
-            {
-                return View();
-            }
-        }*/
+            return RedirectToAction(nameof(SignUp));//View();
+        }
 
         [Authorize]
         public ActionResult Logout()

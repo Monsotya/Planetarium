@@ -39,6 +39,14 @@ input, button {
     margin-top: 24px;
 }
 
+label {
+    display: block;
+    color: red;
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
 .form small {
     display: block;
     color: var(--blue);

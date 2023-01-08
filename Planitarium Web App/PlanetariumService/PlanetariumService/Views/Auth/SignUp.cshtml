@@ -22,12 +22,15 @@
     </section>
     <div class="form">
         <h3>Create an account</h3>
-        <form method="POST" action="">
-            <input type="email" name="email" placeholder="Email">
-            <input type="text" name="username" placeholder="Username">
-            <input type="password" name="pwd" placeholder="Password">
-            <input type="password" name="pwdconfirm" placeholder="Confirm Password">
-            <button class="submit">Sign up</button>
+        <form asp-action="Register">
+            @*method="POST" action=""*@
+            <input type="email" placeholder="Email" required>@*asp-for="email"*@
+            @*<span asp-validation-for="email"></span>*@
+            <input type="text" placeholder="Username" required>@*asp-for="username"*@
+            <input id="pwd" type="password" placeholder="Password" required>@*asp-for="pwd"*@
+            <input id="pwdconfirm" type="password" placeholder="Confirm Password" required>
+            <label for="pwd"></label>
+            <button type="submit" class="submit" aria-disabled="true">Sign up</button>
             <small><a asp-area="" asp-controller="Auth" asp-action="SignIn">Already have an account?</a></small>
             <div class="smallest">
                 By signing up you agree to the terms of the Service Agreement and<br> the Galaxy Planetarium
@@ -36,3 +39,42 @@
         </form>
     </div>
 </main>
+<script>
+    let button = document.querySelector('button[type="submit"]');
+    function check() {
+        if (document.getElementById('pwd').value == document.getElementById('pwdconfirm').value && 
+        document.getElementById('pwd').value != '') {
+            document.querySelector('label[for="pwd"]').style.color = 'green';
+            document.querySelector('label[for="pwd"]').innerText = 'Correct';
+            button.disabled = false;
+        } else if (document.getElementById('pwd').value == '' || document.getElementById('pwdconfirm').value == ''){
+            document.querySelector('label[for="pwd"]').innerText = '';
+        } else {
+            document.querySelector('label[for="pwd"]').style.color = 'red';
+            document.querySelector('label[for="pwd"]').innerText = 'Passwords are not matching';
+            button.disabled = true;
+        }
+    }
+    document.getElementById('pwd').onkeyup = check;
+    document.getElementById('pwdconfirm').onkeyup = check;
+    /*$('#pwd, #pwdconfirm').on('keyup', function () {
+        if ($('#pwd').val() == $('#pwdconfirm').val() && $('#pwd').val() != "" && $('#pwdconfirm').val() != "") {
+            $('span[for="pwd"]').text('Correct').css('color', 'green');
+        } else if ($('#pwd').val() == "" && $('#pwdconfirm').val() == "") {
+            $('span[for="pwd"]').text('');
+        } else
+            $('span[for="pwd"]').text('Passwords Not Matching').css('color', 'red');
+        }
+    });*/
+    /*let inputs = document.querySelectorAll('input');
+    let button = document.querySelector('button[type="submit"]');
+    button.disabled = true
+
+    for (i = 0; i < inputs.length; i++) {
+        inputs[i].addEventListener('input', () => {
+            let values = []
+            inputs.forEach(v => values.push(v.value))
+            button.disabled = values.includes('')
+        })
+    }*/
+</script>
