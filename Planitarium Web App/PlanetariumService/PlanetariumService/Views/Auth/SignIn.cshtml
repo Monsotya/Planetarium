@@ -2,7 +2,7 @@
 @model LoginUI
 
 @{
-    ViewData["Title"] = "Add posters";
+    ViewData["Title"] = "Sign In";
     ViewData["CSS"] = "~/css/system.css";
     ViewData["Head"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/signin.css\" />";
 }
@@ -20,23 +20,23 @@
         <article id="earth-trajectory">
             <div id="earth"></div>
         </article>
-        <article id="mars-trajectory">
+        @*<article id="mars-trajectory">
             <div id="mars"></div>
-        </article>
+        </article>*@
     </section>
     <div class="form">
         <h3>Welcome back!</h3>
-        <form method="POST" action="">
-            <div asp-validation-summary="ModelOnly"></div>
+        <form asp-action="Login">
+            @*<div asp-validation-summary="ModelOnly"></div>*@
             <input type="text" asp-for="Login" placeholder="Username or email" required><br>
-            @if (ViewBag.LoginError != null)
+            @if (TempData["LoginError"] != null)
             {
-            <label>@ViewBag.LoginError</label>
+                <label>@TempData["LoginError"]</label>
             }
             <input type="password" asp-for="Password" placeholder="Password" required>
-            @if (ViewBag.PasswordError != null)
+            @if (TempData["PasswordError"] != null)
             {
-            <label>@ViewBag.PasswordError</label>
+                <label>@TempData["PasswordError"]</label>
             }
             <small><a href="#">Forgot password?</a></small>
             <button class="submit" type="submit">Sign in</button>

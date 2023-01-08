@@ -1,8 +1,12 @@
+@using PlanetariumService.Models
+@model RegisterUI
+
 @{
-    ViewData["Title"] = "Add posters";
+    ViewData["Title"] = "Sign Up";
     ViewData["CSS"] = "~/css/system.css";
     ViewData["Head"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/signin.css\" />";
 }
+
 <h1>Sign up</h1>
 <main>
     <section id="solar-system">
@@ -16,18 +20,30 @@
         <article id="earth-trajectory">
             <div id="earth"></div>
         </article>
-        <article id="mars-trajectory">
+        @*<article id="mars-trajectory">
             <div id="mars"></div>
-        </article>
+        </article>*@
     </section>
     <div class="form">
         <h3>Create an account</h3>
         <form asp-action="Register">
             @*method="POST" action=""*@
-            <input type="email" placeholder="Email" required>@*asp-for="email"*@
+            <input asp-for="Email" type="email" placeholder="Email" required>@*asp-for="email"*@
+            @if (TempData["EmailError"] != null)
+            {
+                <label>@TempData["EmailError"]</label>
+            }
             @*<span asp-validation-for="email"></span>*@
-            <input type="text" placeholder="Username" required>@*asp-for="username"*@
-            <input id="pwd" type="password" placeholder="Password" required>@*asp-for="pwd"*@
+            <input asp-for="Username" type="text" placeholder="Username" required>@*asp-for="username"*@
+            @if (TempData["UsernameError"] != null)
+            {
+                <label>@TempData["UsernameError"]</label>
+            }
+            <input asp-for="UserPassword" id="pwd" type="password" placeholder="Password" required>@*asp-for="pwd"*@
+            @*@if (TempData["PasswordError"] != null)
+            {
+                <label>@TempData["PasswordError"]</label>
+            }*@
             <input id="pwdconfirm" type="password" placeholder="Confirm Password" required>
             <label for="pwd"></label>
             <button type="submit" class="submit" aria-disabled="true">Sign up</button>
