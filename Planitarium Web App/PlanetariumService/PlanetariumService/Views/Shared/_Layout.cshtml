@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -82,7 +84,14 @@
             @*<a href="#">About us</a>*@
         </div>
         <div class="links">
+            @if (Accessor.HttpContext.Session.GetInt32("userId") != null)
+            {
+                <a asp-area="" asp-controller="Auth" asp-action="Logout">Log out</a>
+            }
+            else
+            {
             <a asp-area="" asp-controller="Auth" asp-action="SignIn">Sign in</a>
+            }
             <div class="lang" onclick="change_lang(this)"><span toggle>en</span>|<span>ua</span></div>
         </div>
     </nav>
@@ -98,6 +107,12 @@
             }
         }
     </script>
+    @if (TempData["Alert"] != null)
+    {
+        <script>
+            alert("@Html.Raw(TempData["Alert"])");
+        </script>
+    }
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

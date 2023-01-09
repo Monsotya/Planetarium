@@ -44,6 +44,8 @@ builder.Services.AddTransient<IOrderService, OrderService>();
 builder.Services.AddTransient<IUsersService, UsersService>();
 
 builder.Services.AddSignalR();
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
 
 builder.Host.UseDefaultServiceProvider(o =>
 {
@@ -74,5 +76,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapHub<BuyingTicketsHub>("/buyingTickets");
+
+app.UseSession();
 
 app.Run();

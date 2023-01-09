@@ -58,7 +58,7 @@ namespace PlanetariumService.Controllers
             }
             try
             {
-                ticketService.BuyTickets(tickets);
+                ticketService.BuyTickets(tickets, null);
                 log.LogInformation("Buying tickets finished");
                 return tickets.Count();
             }

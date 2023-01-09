@@ -19,12 +19,20 @@ namespace PlanetariumService.Controllers
         [Route("Signin")]
         public IActionResult SignIn()
         {
+            if (HttpContext.Session.GetInt32("userId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
         [Route("Signup")]
         public IActionResult SignUp()
         {
+            if (HttpContext.Session.GetInt32("userId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
@@ -63,8 +71,9 @@ namespace PlanetariumService.Controllers
                     TempData["PasswordError"] = "Invalid Sign in attempt. (Wrong Password)";
                     return RedirectToAction(nameof(SignIn));
                 }
-                // HttpContext.Session.SetString("userName", user.Username);
-                // HttpContext.Session.SetInt32("userId", user.Id);
+                //HttpContext.Session.SetString("userName", user.Username);
+                TempData["Alert"] = "Signed in successfully!";
+                HttpContext.Session.SetInt32("userId", user.Id);
 
                 return RedirectToAction("Index", "Home");
             }
@@ -116,16 +125,22 @@ namespace PlanetariumService.Controllers
 
                 };
                 var res = userService.Add(user);
-                // HttpContext.Session.SetString("userName", user.Username);
-                // HttpContext.Session.SetInt32("userId", user.Id);
+                // HttpContext.Session = user.Username;
+                //HttpContext.Session.SetString("userName", user.Username);
+                TempData["Alert"] = "Registration complete. Signed in successfully!";
+                HttpContext.Session.SetInt32("userId", user.Id);
                 return RedirectToAction("Index", "Home");
             }
             return RedirectToAction(nameof(SignUp));//View();
         }
 
-        [Authorize]
+        //[Authorize]
         public ActionResult Logout()
         {
+            if (HttpContext.Session.GetInt32("userId") == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             HttpContext.Session.Clear();
             return RedirectToAction(nameof(SignIn));
             // return RedirectToPage()

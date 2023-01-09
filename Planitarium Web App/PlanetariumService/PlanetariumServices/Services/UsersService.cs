@@ -7,16 +7,16 @@ namespace PlanetariumServices
 {
     public class UsersService : IUsersService
     {
-        //private readonly IHttpContextAccessor httpContextAccessor;
+        private readonly IHttpContextAccessor httpContextAccessor;
         private readonly IUsersRepository userRepository;
 
-        public UsersService(/*IHttpContextAccessor httpContextAccessor, */IUsersRepository userRepository)
+        public UsersService(IHttpContextAccessor httpContextAccessor, IUsersRepository userRepository)
         {
-            //this.httpContextAccessor = httpContextAccessor;
+            this.httpContextAccessor = httpContextAccessor;
             this.userRepository = userRepository;
         }
 
-        /*public string GetMyName()
+        public string GetMyName()
         {
             var result = string.Empty;
             if (httpContextAccessor.HttpContext != null)
@@ -24,7 +24,7 @@ namespace PlanetariumServices
                 result = httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
             }
             return result;
-        }*/
+        }
 
         public Users GetByUsername(string username) => userRepository.GetByUsernameAsync(username).Result;
 

@@ -18,7 +18,7 @@ namespace PlanetariumServiceTests
     public class AuthControllerTests
     {
         private IConfiguration configuration;
-        private IUserService userService;
+        private IUsersService userService;
         private ILogger<AuthController> log;
         private AuthController authController;
 
@@ -26,7 +26,7 @@ namespace PlanetariumServiceTests
         public void SetUp()
         {
             configuration = Substitute.For<IConfiguration>();
-            userService = Substitute.For<IUserService>();
+            userService = Substitute.For<IUsersService>();
             log = Substitute.For<ILogger<AuthController>>();
 
             authController = new AuthController(configuration, userService, log);

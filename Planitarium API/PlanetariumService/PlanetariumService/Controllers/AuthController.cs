@@ -15,10 +15,10 @@ namespace PlanetariumService.Controllers
     {
         public static UserUI user = new UserUI();
         private readonly IConfiguration configuration;
-        private readonly IUserService userService;
+        private readonly IUsersService userService;
         private readonly ILogger<AuthController> log;
 
-        public AuthController(IConfiguration configuration, IUserService userService, ILogger<AuthController> log)
+        public AuthController(IConfiguration configuration, IUsersService userService, ILogger<AuthController> log)
         {
             this.log = log;
             this.configuration = configuration;
@@ -73,13 +73,13 @@ namespace PlanetariumService.Controllers
         public async Task<ActionResult<string>> Login(Users request)
         {
 
-            if (userService.GetAllUsers().FirstOrDefault(x => x.Username == request.Username) == null)
+            if (userService.GetAll().FirstOrDefault(x => x.Username == request.Username) == null)
             {
                 log.LogError("Not found");
                 return BadRequest("User not found.");
             }
 
-            if (userService.GetAllUsers().FirstOrDefault(x => x.Username == request.Username).UserPassword != request.UserPassword)
+            if (userService.GetAll().FirstOrDefault(x => x.Username == request.Username).UserPassword != request.UserPassword)
             {
                 log.LogError("Wrong password");
                 return BadRequest("Wrong password.");
@@ -89,7 +89,7 @@ namespace PlanetariumService.Controllers
             user.Password = request.UserPassword;
             try
             {
-                user.Role = userService.GetAllUsers().FirstOrDefault(x => x.Username == request.Username).UserRole;
+                user.Role = userService.GetAll().FirstOrDefault(x => x.Username == request.Username).UserRole;
                 string token = CreateToken(user);
                 log.LogInformation("Login was successful");
                 return Ok(token);

@@ -4,7 +4,7 @@ namespace PlanetariumServices
 {
     public interface IUsersService
     {
-        //string GetMyName();
+        string GetMyName();
 
         Users GetByUsername(string username);
 

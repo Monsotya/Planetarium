@@ -11,9 +11,9 @@
       "*, ServiceReference1"
     ],
     "references": [
-      "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\bin\\Debug\\net6.0\\PlanetariumModels.dll",
-      "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\bin\\Debug\\net6.0\\PlanetariumRepositories.dll",
-      "C:\\Users\\sturchyn\\Documents\\GitHub\\Internship\\Module14\\PlanetariumService\\PlanetariumServiceGRPC\\bin\\Debug\\net6.0\\PlanetariumServices.dll",
+      "{$PROJECT_DIR}\\Planitarium Web App\\PlanetariumService\\PlanetariumServiceGRPC\\bin\\Debug\\net6.0\\PlanetariumModels.dll",
+      "{$PROJECT_DIR}\\Planitarium Web App\\PlanetariumService\\PlanetariumServiceGRPC\\bin\\Debug\\net6.0\\PlanetariumRepositories.dll",
+      "{$PROJECT_DIR}\\Planitarium Web App\\PlanetariumService\\PlanetariumServiceGRPC\\bin\\Debug\\net6.0\\PlanetariumServices.dll",
       "Google.Protobuf, {Google.Protobuf, 3.19.2}",
       "Grpc.AspNetCore.Server, {Grpc.AspNetCore.Server, 2.44.0}",
       "Grpc.AspNetCore.Server.ClientFactory, {Grpc.AspNetCore.Server.ClientFactory, 2.44.0}",

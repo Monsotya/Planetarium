@@ -10,11 +10,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Remove="C:\Users\sturchyn\.nuget\packages\log4net.elasticsearch\2.5.0\contentFiles\any\netstandard2.0\LICENSE" />
-		<Content Remove="C:\Users\sturchyn\.nuget\packages\log4net.elasticsearch\2.5.0\contentFiles\any\netstandard2.0\readme.txt" />
-	</ItemGroup>
-
-	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.0" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
@@ -42,8 +38,9 @@
 		<PackageReference Include="NLog" Version="4.*" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\..\Module14\PlanetariumService\PlanetariumModels\PlanetariumModels.csproj" />
-		<ProjectReference Include="..\..\..\Module14\PlanetariumService\PlanetariumServices\PlanetariumServices.csproj" />
+	  <ProjectReference Include="..\..\..\Planitarium Web App\PlanetariumService\PlanetariumModels\PlanetariumModels.csproj" />
+	  <ProjectReference Include="..\..\..\Planitarium Web App\PlanetariumService\PlanetariumRepositories\PlanetariumRepositories.csproj" />
+	  <ProjectReference Include="..\..\..\Planitarium Web App\PlanetariumService\PlanetariumServices\PlanetariumServices.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<Content Update="nlog.config">

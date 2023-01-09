@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Module14\PlanetariumService\PlanetariumModels\PlanetariumModels.csproj" />
-    <ProjectReference Include="..\..\..\Module14\PlanetariumService\PlanetariumServices\PlanetariumServices.csproj" />
+    <ProjectReference Include="..\..\..\Planitarium Web App\PlanetariumService\PlanetariumModels\PlanetariumModels.csproj" />
+    <ProjectReference Include="..\..\..\Planitarium Web App\PlanetariumService\PlanetariumRepositories\PlanetariumRepositories.csproj" />
     <ProjectReference Include="..\PlanetariumService\PlanetariumService.csproj" />
   </ItemGroup>
 
