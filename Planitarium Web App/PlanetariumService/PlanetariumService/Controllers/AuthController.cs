@@ -49,9 +49,13 @@ namespace PlanetariumService.Controllers
                 var user = userService.GetByUsername(model.Login);
                 if (user == null)
                 {
+                    user = userService.GetByEmail(model.Login);
+                    if (user == null)
+                    {
+                        TempData["LoginError"] = "Invalid Username or Email.";
+                        return RedirectToAction(nameof(SignIn));
+                    }
                     // ModelState.AddModelError("Login", "Invalid Username.");
-                    TempData["LoginError"] = "Invalid Username.";
-                    return RedirectToAction(nameof(SignIn));
                 }
                 if (user.UserPassword != model.Password)
                 {
@@ -59,7 +63,8 @@ namespace PlanetariumService.Controllers
                     TempData["PasswordError"] = "Invalid Sign in attempt. (Wrong Password)";
                     return RedirectToAction(nameof(SignIn));
                 }
-                HttpContext.Session.SetString("userId", user.Username);
+                // HttpContext.Session.SetString("userName", user.Username);
+                // HttpContext.Session.SetInt32("userId", user.Id);
 
                 return RedirectToAction("Index", "Home");
             }
@@ -84,11 +89,23 @@ namespace PlanetariumService.Controllers
         public async Task<ActionResult> Register(RegisterUI model) {//(RegistrationViewModel model)
             if (ModelState.IsValid)
             {
+                bool error = false;
                 if (userService.GetByUsername(model.Username) != null)
                 {
-                    TempData["UsernameError"] = "Invalid Username.";
+                    TempData["UsernameError"] = "Username already used.";
+                    error = true;
+                }
+                if (userService.GetByEmail(model.Email) != null)
+                {
+                    TempData["EmailError"] = "Email already used.";
+                    error = true;
+                }
+
+                if (error)
+                {
                     return RedirectToAction(nameof(SignUp));
                 }
+
                 Users user = new Users
                 {
                     Username = model.Username,
@@ -99,7 +116,8 @@ namespace PlanetariumService.Controllers
 
                 };
                 var res = userService.Add(user);
-                //HttpContext.Session.SetString("userId", user.Username);
+                // HttpContext.Session.SetString("userName", user.Username);
+                // HttpContext.Session.SetInt32("userId", user.Id);
                 return RedirectToAction("Index", "Home");
             }
             return RedirectToAction(nameof(SignUp));//View();

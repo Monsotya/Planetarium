@@ -8,7 +8,7 @@ namespace PlanetariumServices
 
         Users GetByUsername(string username);
 
-        // Users GetByEmail(string email);
+        Users GetByEmail(string email);
 
         public List<Users> GetAll();
         public Task<Users> Add(Users user);

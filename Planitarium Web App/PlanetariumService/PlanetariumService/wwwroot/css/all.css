@@ -365,6 +365,10 @@ a.button-like {
     filter: invert(1);
 }
 
+::-ms-reveal {
+    filter: invert(100%);
+}
+
 a.button-like:hover {
     background: var(--blue);
 }

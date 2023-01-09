@@ -6,5 +6,6 @@
         public string Username { get; set; } = string.Empty;
         public string UserPassword { get; set; } = string.Empty;
         public string UserRole { get; set; } = string.Empty;
+        public string Email { get; set; }
     }
 }

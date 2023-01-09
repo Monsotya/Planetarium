@@ -28,6 +28,8 @@ namespace PlanetariumServices
 
         public Users GetByUsername(string username) => userRepository.GetByUsernameAsync(username).Result;
 
+        public Users GetByEmail(string email) => userRepository.GetByEmailAsync(email).Result;
+
         public List<Users> GetAll() => userRepository.GetAll().ToList<Users>();
 
         public async Task<Users> Add(Users user) => await userRepository.AddAsync(user);

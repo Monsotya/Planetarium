@@ -6,7 +6,7 @@ namespace PlanetariumRepositories
     {
         Task<Users> GetByUsernameAsync(string username);
 
-        //Task<Users> GetByEmailAsync(string email);
+        Task<Users> GetByEmailAsync(string email);
 
         public List<Users> GetAll();
     }
