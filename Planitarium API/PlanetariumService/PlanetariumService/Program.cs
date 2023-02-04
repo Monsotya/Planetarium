@@ -23,7 +23,7 @@ builder.Services.AddControllersWithViews()
     .AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
 );
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUsersService, UsersService>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddSwaggerGen(options => {
     options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
@@ -90,12 +90,14 @@ builder.Services.AddTransient<ITicketRepository, TicketRepository>();
 builder.Services.AddTransient<IPosterRepository, PosterRepository>();
 builder.Services.AddTransient<IHallRepository, HallRepository>();
 builder.Services.AddTransient<ITicketRepository, TicketRepository>();
+builder.Services.AddTransient<IUsersRepository, UsersRepository>();
 
 builder.Services.AddTransient<ITicketService, TicketService>();
-builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IUsersService, UsersService>();
 builder.Services.AddTransient<IPosterService, PosterService>();
 builder.Services.AddTransient<IHallService, HallService>();
 builder.Services.AddTransient<IPerformanceService, PerformanceService>();
+builder.Services.AddTransient<IUsersService, UsersService>();
 
 var logger = LogManager.GetCurrentClassLogger();
 

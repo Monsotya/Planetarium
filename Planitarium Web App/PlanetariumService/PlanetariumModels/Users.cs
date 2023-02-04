@@ -1,16 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PlanetariumModels
 {
+    [Index(nameof(Username), IsUnique = true)]
+    [Index(nameof(Email), IsUnique = true)]
     public class Users
     {
+        [Key]
         public int Id { get; set; }
-        // [Required]
         public string Username { get; set; } = string.Empty;
-        // [Required]
         public string UserPassword { get; set; } = string.Empty;
-        // [Required]
         public string Email { get; set; } = string.Empty;
-        public string UserRole { get; set; } = string.Empty;
+        public string? UserRole { get; set; } = string.Empty;
     }
 }

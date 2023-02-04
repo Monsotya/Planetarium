@@ -10,12 +10,12 @@ namespace PlanetariumRepositories
         }
         public Task<Users> GetByUsernameAsync(string username)
         {
-            return base.GetAll().FirstOrDefaultAsync(u => u.Username.Equals(username));
+            return base.GetAll().FirstOrDefaultAsync(u => u.Username == username);
         }
 
         public Task<Users> GetByEmailAsync(string email)
         {
-            return base.GetAll().FirstOrDefaultAsync(u => u.Email.Equals(email));
+            return base.GetAll().FirstOrDefaultAsync(u => u.Email == email);
         }
 
         public List<Users> GetAll()

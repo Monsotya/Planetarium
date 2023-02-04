@@ -34,7 +34,7 @@ namespace PlanetariumRepositories
             try
             {
                 await RepositoryPlanetarium.AddAsync(entity);
-                await RepositoryPlanetarium.SaveChangesAsync();
+                RepositoryPlanetarium.SaveChanges();
 
                 return entity;
             }

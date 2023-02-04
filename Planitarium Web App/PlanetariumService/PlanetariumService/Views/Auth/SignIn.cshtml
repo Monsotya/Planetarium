@@ -20,26 +20,26 @@
         <article id="earth-trajectory">
             <div id="earth"></div>
         </article>
-        @*<article id="mars-trajectory">
+        <article id="mars-trajectory">
             <div id="mars"></div>
-        </article>*@
+        </article>
     </section>
     <div class="form">
         <h3>Welcome back!</h3>
         <form asp-action="Login">
             @*<div asp-validation-summary="ModelOnly"></div>*@
-            <input type="text" asp-for="Login" placeholder="Username or email" required><br>
+            <input type="text" asp-for="Login" name="Login" placeholder="Username or email" required><br>
             @if (TempData["LoginError"] != null)
             {
                 <label>@TempData["LoginError"]</label>
             }
-            <input type="password" asp-for="Password" placeholder="Password" required>
+            <input type="password" asp-for="Password" name="Password" placeholder="Password" required>
             @if (TempData["PasswordError"] != null)
             {
                 <label>@TempData["PasswordError"]</label>
             }
             <small><a href="#">Forgot password?</a></small>
-            <button class="submit" type="submit">Sign in</button>
+            <button class="submit" type="submit" name="Submit">Sign in</button>
             <small>Dont have an account yet? <a asp-area="" asp-controller="Auth" asp-action="SignUp">Sign up</a></small>
         </form>
     </div>

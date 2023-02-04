@@ -20,21 +20,21 @@
         <article id="earth-trajectory">
             <div id="earth"></div>
         </article>
-        @*<article id="mars-trajectory">
+        <article id="mars-trajectory">
             <div id="mars"></div>
-        </article>*@
+        </article>
     </section>
     <div class="form">
         <h3>Create an account</h3>
         <form asp-action="Register">
             @*method="POST" action=""*@
-            <input asp-for="Email" type="email" placeholder="Email" required>@*asp-for="email"*@
+            <input asp-for="Email" type="email" name="Email" placeholder="Email" required>@*asp-for="email"*@
             @if (TempData["EmailError"] != null)
             {
                 <label>@TempData["EmailError"]</label>
             }
             @*<span asp-validation-for="email"></span>*@
-            <input asp-for="Username" type="text" placeholder="Username" required>@*asp-for="username"*@
+            <input asp-for="Username" type="text" name="Username" placeholder="Username" required>@*asp-for="username"*@
             @if (TempData["UsernameError"] != null)
             {
                 <label>@TempData["UsernameError"]</label>
@@ -46,7 +46,7 @@
             }*@
             <input id="pwdconfirm" type="password" placeholder="Confirm Password" required>
             <label for="pwd"></label>
-            <button type="submit" class="submit" aria-disabled="true">Sign up</button>
+            <button type="submit" class="submit" aria-disabled="true" name="Submit">Sign up</button>
             <small><a asp-area="" asp-controller="Auth" asp-action="SignIn">Already have an account?</a></small>
             <div class="smallest">
                 By signing up you agree to the terms of the Service Agreement and<br> the Galaxy Planetarium
